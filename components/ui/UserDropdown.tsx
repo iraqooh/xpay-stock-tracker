@@ -11,7 +11,6 @@ import {
 import { Avatar, AvatarFallback, AvatarImage } from "./avatar";
 import { useRouter } from "next/navigation"
 import { Button } from "./button";
-import { sign } from "crypto";
 import { LogOut } from "lucide-react";
 import NavItems from "./NavItems";
 
@@ -24,7 +23,7 @@ const UserDropdown = () => {
   return (
     <DropdownMenu>
         <DropdownMenuTrigger asChild>
-            <Button variant="ghost" className="flex items-center gap-3 text-gray-4 hover:text-lime-500">
+            <Button variant="ghost" className="flex items-center gap-3 text-gray-400 hover:text-lime-500">
                 <Avatar className="h-8 w-8">
                     <AvatarImage src="/assets/images/user.png" className="bg-white" />
                     <AvatarFallback className="bg-lime-500 text-lime-900 text-sm font-bold">
@@ -60,6 +59,7 @@ const UserDropdown = () => {
             <DropdownMenuSeparator className="bg-gray-600" />
             <DropdownMenuItem onClick={handleSignOut} className="text-gray-100 text-md font-medium focus:bg-transparent focus:text-lime-500 transition-colors cursor-pointer">
                 <LogOut className="h-4 w-4 mr-2 hidden sm:block" />
+                Logout
             </DropdownMenuItem>
             <DropdownMenuSeparator className="hidden sm:block bg-gray-600" />
             <nav className="sm:hidden">
