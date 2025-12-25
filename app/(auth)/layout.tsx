@@ -28,9 +28,9 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
             <div className="flex items-center justify-between">
                 <div className="">
                     <cite className="auth-testimonial-author">- Jane S.</cite>
-                    <p className="max-md:text-xs text-gray-500">Agrobusiness Enterpreneur</p>
+                    <p className="max-md:text-xs text-gray-500">Agrobusiness Entrepreneur</p>
                 </div>
-                <div className="flex items-center gap-0 5">
+                <div className="flex items-center gap-0.5">
                     {[1, 2, 3, 4, 5].map((star) => (
                         <Image
                             src="/assets/icons/star.svg"
