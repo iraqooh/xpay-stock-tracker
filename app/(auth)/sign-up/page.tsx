@@ -1,6 +1,7 @@
 "use client"
 
 import { CountrySelectField } from '@/components/forms/CountrySelectField';
+import FooterLink from '@/components/forms/FooterLink';
 import InputField from '@/components/forms/InputField';
 import SelectField from '@/components/forms/SelectField';
 import { Button } from '@/components/ui/button';
@@ -55,8 +56,8 @@ const SignUp = () => {
                 validation={{ 
                     required: 'Email is required', 
                     minLength: 2 ,
-                    pattern: /^\w+@\w+\.\w+$/, 
-                    message: 'Email address is required'
+                    pattern: /^[^\s@]+@[^\s@]+\.[^\s@]+$/, 
+                    message: 'Please enter a valid email address'
                 }}
             />
 
@@ -115,6 +116,11 @@ const SignUp = () => {
             >
                 {isSubmitting ? 'Creating account' : 'Start Your Investment Journey'}
             </Button>
+            <FooterLink 
+                text='Already have an account?'
+                linkText='Sign In'
+                href='/sign-in'
+            />
         </form>
     </>
   )
