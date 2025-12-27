@@ -1,5 +1,4 @@
 import mongoose from 'mongoose';
-import { cache } from 'react';
 
 const MONGODB_URI = process.env.MONGODB_URI;
 
@@ -24,7 +23,7 @@ export const connectToDatabase = async () => {
         throw new Error('MONGODB_URI not set in the .env')
     }
 
-    if(cached.promise) return cached.conn
+    if(cached.conn) return cached.conn
     
     if(!cached.promise) {
         cached.promise = mongoose.connect(
@@ -41,4 +40,6 @@ export const connectToDatabase = async () => {
     }
 
     console.log(`Connected to database ${process.env.NODE_ENV} - ${MONGODB_URI}`)
+
+    return cached.conn
 }
