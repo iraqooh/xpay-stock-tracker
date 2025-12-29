@@ -97,14 +97,14 @@ export const WELCOME_EMAIL_TEMPLATE = `<!DOCTYPE html>
                     <!-- Header with Logo -->
                     <tr>
                         <td align="left" class="mobile-header-padding" style="padding: 40px 40px 20px 40px;">
-                            <img src="https://xpay.vercel.app/assets/images/logo.png" alt="XPay Logo" width="150" style="max-width: 100%; height: auto;">
+                            <img src="https://xpay-stocks.vercel.app/assets/images/logo.png" alt="XPay Logo" width="150" style="max-width: 100%; height: auto;">
                         </td>
                     </tr>
                     
                     <!-- Dashboard Preview Image -->
                     <tr>
                         <td align="center" class="dashboard-preview" style="padding: 40px 40px 0px 40px;">
-                            <img src="https://xpay.vercel.app/assets/images/dashboard.png" alt="XPay Dashboard Preview" width="100%" style="max-width: 520px; width: 100%; height: auto; border-radius: 12px; border: 1px solid #30333A;">
+                            <img src="https://xpay-stocks.vercel.app/assets/images/dashboard.png" alt="XPay Dashboard Preview" width="100%" style="max-width: 520px; width: 100%; height: auto; border-radius: 12px; border: 1px solid #30333A;">
                         </td>
                     </tr>
                     
@@ -260,7 +260,7 @@ export const NEWS_SUMMARY_EMAIL_TEMPLATE = `<!DOCTYPE html>
                     <!-- Header with Logo -->
                     <tr>
                         <td align="left" class="mobile-header-padding" style="padding: 40px 40px 20px 40px;">
-                            <img src="https://xpay.vercel.app/assets/images/logo.png" alt="XPay Logo" width="150" style="max-width: 100%; height: auto;">
+                            <img src="https://xpay-stocks.vercel.app/assets/images/logo.png" alt="XPay Logo" width="150" style="max-width: 100%; height: auto;">
                         </td>
                     </tr>
                     
@@ -410,7 +410,7 @@ export const STOCK_ALERT_UPPER_EMAIL_TEMPLATE = `<!DOCTYPE html>
                     <!-- Header with Logo -->
                     <tr>
                         <td align="left" class="mobile-header-padding" style="padding: 40px 40px 20px 40px;">
-                            <img src="https://xpay.vercel.app/assets/images/logo.png" alt="XPay Logo" width="150" style="max-width: 100%; height: auto;">
+                            <img src="https://xpay-stocks.vercel.app/assets/images/logo.png" alt="XPay Logo" width="150" style="max-width: 100%; height: auto;">
                         </td>
                     </tr>
                     
@@ -483,7 +483,7 @@ export const STOCK_ALERT_UPPER_EMAIL_TEMPLATE = `<!DOCTYPE html>
                             <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="margin-bottom: 30px;">
                                 <tr>
                                     <td align="center">
-                                        <a href="https://xpay.vercel.app/" style="display: block; width: 100%; max-width: 100%; box-sizing: border-box; color: #000000; background-color: #E8BA40; text-decoration: none; padding: 16px 32px; border-radius: 8px; font-size: 16px; font-weight: 500; line-height: 1; text-align: center;">
+                                        <a href="https://xpay-stocks.vercel.app/" style="display: block; width: 100%; max-width: 100%; box-sizing: border-box; color: #000000; background-color: #E8BA40; text-decoration: none; padding: 16px 32px; border-radius: 8px; font-size: 16px; font-weight: 500; line-height: 1; text-align: center;">
                                             View Dashboard
                                         </a>
                                     </td>
@@ -497,7 +497,7 @@ export const STOCK_ALERT_UPPER_EMAIL_TEMPLATE = `<!DOCTYPE html>
                                 </p>
                                 <p style="margin: 0 0 10px 0; font-size: 14px; line-height: 1.5; color: #CCDADC !important;">
                                     <a href="#" style="color: #CCDADC !important; text-decoration: underline;">Unsubscribe</a> | 
-                                    <a href="https://xpay.vercel.app/" style="color: #CCDADC !important; text-decoration: underline;">Visit XPay</a>
+                                    <a href="https://xpay-stocks.vercel.app/" style="color: #CCDADC !important; text-decoration: underline;">Visit XPay</a>
                                 </p>
                                 <p style="margin: 0; font-size: 14px; line-height: 1.5; color: #CCDADC !important;">
                                     © 2025 XPay
@@ -619,7 +619,7 @@ export const STOCK_ALERT_LOWER_EMAIL_TEMPLATE = `<!DOCTYPE html>
                     <!-- Header with Logo -->
                     <tr>
                         <td align="left" class="mobile-header-padding" style="padding: 40px 40px 20px 40px;">
-                            <img src="https://xpay.vercel.app/assets/images/logo.png" alt="XPay Logo" width="150" style="max-width: 100%; height: auto;">
+                            <img src="https://xpay-stocks.vercel.app/assets/images/logo.png" alt="XPay Logo" width="150" style="max-width: 100%; height: auto;">
                         </td>
                     </tr>
                     
@@ -819,7 +819,7 @@ export const VOLUME_ALERT_EMAIL_TEMPLATE = `<!DOCTYPE html>
                     <!-- Header with Logo -->
                     <tr>
                         <td align="left" class="mobile-header-padding" style="padding: 40px 40px 20px 40px;">
-                            <img src="https://xpay.vercel.app/assets/images/logo.png" alt="XPay Logo" width="150" style="max-width: 100%; height: auto;">
+                            <img src="https://xpay-stocks.vercel.app/assets/images/logo.png" alt="XPay Logo" width="150" style="max-width: 100%; height: auto;">
                         </td>
                     </tr>
                     
@@ -1042,7 +1042,7 @@ export const INACTIVE_USER_REMINDER_EMAIL_TEMPLATE = `<!DOCTYPE html>
                     <!-- Header with Logo -->
                     <tr>
                         <td align="left" class="mobile-header-padding" style="padding: 40px 40px 20px 40px;">
-                            <img src="https://xpay.vercel.app/assets/images/logo.png" alt="XPay Logo" width="150" style="max-width: 100%; height: auto;">
+                            <img src="https://xpay-stocks.vercel.app/assets/images/logo.png" alt="XPay Logo" width="150" style="max-width: 100%; height: auto;">
                         </td>
                     </tr>
                     
